@@ -1,5 +1,6 @@
 body{
   background-image: url('img/bg.png');
+  background-size : 100vw;
 }
 
 @font-face {
@@ -32,10 +33,13 @@ body{
   display: block;
   spacing: 30px;
   color: #69443c;
-  font-family: quicksand;
+  font-family: 'quicksand';
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+.menu a:hover, a:active {
+  color:pink;
 }
 
 p{font-family: quicksand;
@@ -54,7 +58,7 @@ h1{
 
 h2{
   font-family: quicksand;
-  font-size :20px;
+  font-size :25px;
   text-align:center;
   color:#black;
 }
@@ -92,6 +96,13 @@ h6{
   font-size :20px;
   color:#887c62;
 }
+.yess{
+  display: flex;
+  justify-content: center;
+  font-family: quicksand;
+  font-size :20px;
+  color:#887c62;
+}
 
 .yes1{
   font-size :16px;
@@ -112,6 +123,7 @@ h6{
    margin-left: auto;
    margin-right: auto;
    width: 70%;
+
 }
 
 .pic2{
@@ -140,6 +152,13 @@ h6{
  margin-left: auto;
  margin-right: auto;
 }
+.tips, .thumbnail{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: quicksand;
+  border: 1vmax solid #887c74;
+}
 .LL, .thumbnail{
   width:65%;
   display: block;
@@ -159,7 +178,11 @@ h6{
   font-family: quicksand;
   text-align: center;
   font-size :15px;
-  color:#black;
+  color: #887c62;
+}
+
+.ig a:hover, a:active {
+  color:#e2b0a6 ;
 }
 
 a:link, a:visited {
@@ -169,9 +192,13 @@ font-size :20px;
 text-align: left;
 }
 
+.one a:hover, a:active {
+  color:#e2b0a6 ;
+}
+
 .set a:link, a:visited {
   background-color: #A7A88A;
-  color: black;
+  color: white;
   font-family: quicksand;
    padding: 14px 25px;
    text-align: center;
@@ -180,7 +207,6 @@ text-align: left;
    font-size :20px;
    display: flex;
      justify-content: center;
-
  }
 
  .set a:hover, a:active {
